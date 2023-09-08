@@ -7,19 +7,42 @@
           <a class="nav-link active" aria-current="page" href="/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/">Objetivos</a>
+          <a class="nav-link" href="/">Objetivos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >Carrera</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item">¿Por qué?</a>
+            </li>
+            <li>
+              <a class="dropdown-item">Cursos</a>
+            </li>
+            <li>
+              <a class="dropdown-item">Profesores</a>
+            </li>
+            <li>
+              <a class="dropdown-item">Compañeros</a>
+            </li>
+            <li>
+              <a class="dropdown-item">Descargas</a>
+            </li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/">Carrera</a>
+          <a class="nav-link" href="/">Intereses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/">Intereses</a>
+          <a class="nav-link" href="/">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/">Acerca de</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/">Contacto</a>
+          <a class="nav-link" href="/">Contacto</a>
         </li>
       </ul>
     </div>
