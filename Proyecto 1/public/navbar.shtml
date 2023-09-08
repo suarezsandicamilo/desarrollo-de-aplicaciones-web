@@ -1,86 +1,51 @@
-<nav id="main-navbar" class="navbar navbar-expand">
+<nav id="main-navbar">
   <div class="container-fluid">
-    <a id="main-navbar-brand" class="navbar-brand" href="/">
+    <a id="main-navbar-brand" href="/">
       <i class="fa-solid fa-code"></i>
     </a>
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a id="main-navbar-index" class="nav-link" href="/">Inicio</a>
+          <a id="main-navbar-index" href="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a id="main-navbar-objectives" href="/objectives.shtml">Objetivos</a>
         </li>
         <li class="nav-item">
           <a
-            id="main-navbar-objectives"
-            class="nav-link"
-            href="/objectives.shtml"
-            >Objetivos</a
-          >
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
+            id="main-navbar-career"
+            class="dropdown-toggle"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
             >Carrera</a
           >
           <ul class="dropdown-menu">
-            <li>
-              <a
-                id="main-navbar-career"
-                class="dropdown-item"
-                href="/career.shtml"
-                >¿Por qué?</a
-              >
+            <li class="dropdown-item">
+              <a id="main-navbar-why" href="/why.shtml">¿Por qué?</a>
             </li>
-            <li>
-              <a
-                id="main-navbar-courses"
-                class="dropdown-item"
-                href="/courses.shtml"
-                >Cursos</a
-              >
+            <li class="dropdown-item">
+              <a id="main-navbar-courses" href="/courses.shtml">Cursos</a>
             </li>
-            <li>
-              <a
-                id="main-navbar-teachers"
-                class="dropdown-item"
-                href="/teachers.shtml"
-                >Profesores</a
-              >
+            <li class="dropdown-item">
+              <a id="main-navbar-teachers" href="/teachers.shtml">Profesores</a>
             </li>
-            <li>
-              <a
-                id="main-navbar-friends"
-                class="dropdown-item"
-                href="/friends.shtml"
-                >Compañeros</a
-              >
+            <li class="dropdown-item">
+              <a id="main-navbar-friends" href="/friends.shtml">Compañeros</a>
             </li>
-            <li>
-              <a
-                id="main-navbar-files"
-                class="dropdown-item"
-                href="/files.shtml"
-                >Descargas</a
-              >
+            <li class="dropdown-item">
+              <a id="main-navbar-files" href="/files.shtml">Descargas</a>
             </li>
           </ul>
         </li>
         <li class="nav-item">
-          <a id="main-navbar-interests" class="nav-link" href="/interests.shtml"
-            >Intereses</a
-          >
+          <a id="main-navbar-interests" href="/interests.shtml">Intereses</a>
         </li>
         <li class="nav-item">
-          <a id="main-navbar-about" class="nav-link" href="/about.shtml"
-            >Acerca de</a
-          >
+          <a id="main-navbar-about" href="/about.shtml">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a id="main-navbar-contact" class="nav-link" href="/contact.shtml"
-            >Contacto</a
-          >
+          <a id="main-navbar-contact" href="/contact.shtml">Contacto</a>
         </li>
       </ul>
     </div>

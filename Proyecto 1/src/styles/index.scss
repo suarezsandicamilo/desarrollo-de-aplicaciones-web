@@ -2,6 +2,27 @@
 
 @import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
+#main-navbar {
+  @extend .navbar;
+  @extend .navbar-expand;
+  // @extend .bg-primary;
+}
+
 #main-navbar-brand {
+  @extend .navbar-brand;
   margin-left: var(--bs-navbar-brand-margin-end);
+}
+
+#main-navbar-index,
+#main-navbar-objectives,
+#main-navbar-career,
+#main-navbar-why,
+#main-navbar-courses,
+#main-navbar-teachers,
+#main-navbar-friends,
+#main-navbar-files,
+#main-navbar-interests,
+#main-navbar-about,
+#main-navbar-contact {
+  @extend .nav-link;
 }

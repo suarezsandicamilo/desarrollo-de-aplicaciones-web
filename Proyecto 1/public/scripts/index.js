@@ -5,7 +5,7 @@
  */
 const PAGES = [
   "objectives",
-  "career",
+  "why",
   "courses",
   "teachers",
   "friends",
