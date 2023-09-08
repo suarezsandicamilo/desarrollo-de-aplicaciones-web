@@ -1,13 +1,13 @@
-<nav class="navbar navbar-expand">
+<nav id="main-navbar" class="navbar navbar-expand">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Proyecto 1</a>
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+          <a id="main-navbar-index" class="nav-link" href="/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Objetivos</a>
+          <a id="main-navbar-objectives" class="nav-link" href="/">Objetivos</a>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -19,30 +19,30 @@
           >
           <ul class="dropdown-menu">
             <li>
-              <a class="dropdown-item">¿Por qué?</a>
+              <a id="main-navbar-career" class="dropdown-item">¿Por qué?</a>
             </li>
             <li>
-              <a class="dropdown-item">Cursos</a>
+              <a id="main-navbar-courses" class="dropdown-item">Cursos</a>
             </li>
             <li>
-              <a class="dropdown-item">Profesores</a>
+              <a id="main-navbar-teachers" class="dropdown-item">Profesores</a>
             </li>
             <li>
-              <a class="dropdown-item">Compañeros</a>
+              <a id="main-navbar-friends" class="dropdown-item">Compañeros</a>
             </li>
             <li>
-              <a class="dropdown-item">Descargas</a>
+              <a id="main-navbar-files" class="dropdown-item">Descargas</a>
             </li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Intereses</a>
+          <a id="main-navbar-interests" class="nav-link" href="/">Intereses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Acerca de</a>
+          <a id="main-navbar-about" class="nav-link" href="/">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Contacto</a>
+          <a id="main-navbar-contact" class="nav-link" href="/">Contacto</a>
         </li>
       </ul>
     </div>
