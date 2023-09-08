@@ -1,3 +1,7 @@
 //
 
-@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
+#main-navbar-brand {
+  margin-left: var(--bs-navbar-brand-margin-end);
+}
