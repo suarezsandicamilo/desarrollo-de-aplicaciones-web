@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/index.css"/>
   </head>
   <body>
-    <h1>Header 1</h1>
+
+<!--#include virtual="./navbar.shtml"-->
+
   </body>
 </html>
