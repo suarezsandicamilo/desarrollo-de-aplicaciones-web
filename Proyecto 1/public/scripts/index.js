@@ -34,10 +34,9 @@ const setActiveClassOnNavLinks = (pages) => {
   const url = window.location.href;
 
   for (const page of pages) {
-    const name = `#main-navbar-${page}`;
-    const element = document.querySelector(name);
+    const element = document.querySelector(`#main-navbar-${page}`);
 
-    if (url.endsWith(page)) {
+    if (url.endsWith(`${page}.shtml`)) {
       setActiveClassOnNavLink(element);
       return;
     }
