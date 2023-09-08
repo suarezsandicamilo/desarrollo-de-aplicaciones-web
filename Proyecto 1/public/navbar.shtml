@@ -7,7 +7,12 @@
           <a id="main-navbar-index" class="nav-link" href="/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a id="main-navbar-objectives" class="nav-link" href="/">Objetivos</a>
+          <a
+            id="main-navbar-objectives"
+            class="nav-link"
+            href="/objectives.shtml"
+            >Objetivos</a
+          >
         </li>
         <li class="nav-item dropdown">
           <a
@@ -19,30 +24,61 @@
           >
           <ul class="dropdown-menu">
             <li>
-              <a id="main-navbar-career" class="dropdown-item">¿Por qué?</a>
+              <a
+                id="main-navbar-career"
+                class="dropdown-item"
+                href="/career.shtml"
+                >¿Por qué?</a
+              >
             </li>
             <li>
-              <a id="main-navbar-courses" class="dropdown-item">Cursos</a>
+              <a
+                id="main-navbar-courses"
+                class="dropdown-item"
+                href="/courses.shtml"
+                >Cursos</a
+              >
             </li>
             <li>
-              <a id="main-navbar-teachers" class="dropdown-item">Profesores</a>
+              <a
+                id="main-navbar-teachers"
+                class="dropdown-item"
+                href="/teachers.shtml"
+                >Profesores</a
+              >
             </li>
             <li>
-              <a id="main-navbar-friends" class="dropdown-item">Compañeros</a>
+              <a
+                id="main-navbar-friends"
+                class="dropdown-item"
+                href="/friends.shtml"
+                >Compañeros</a
+              >
             </li>
             <li>
-              <a id="main-navbar-files" class="dropdown-item">Descargas</a>
+              <a
+                id="main-navbar-files"
+                class="dropdown-item"
+                href="/files.shtml"
+                >Descargas</a
+              >
             </li>
           </ul>
         </li>
         <li class="nav-item">
-          <a id="main-navbar-interests" class="nav-link" href="/">Intereses</a>
+          <a id="main-navbar-interests" class="nav-link" href="/interests.shtml"
+            >Intereses</a
+          >
         </li>
         <li class="nav-item">
-          <a id="main-navbar-about" class="nav-link" href="/">Acerca de</a>
+          <a id="main-navbar-about" class="nav-link" href="/about.shtml"
+            >Acerca de</a
+          >
         </li>
         <li class="nav-item">
-          <a id="main-navbar-contact" class="nav-link" href="/">Contacto</a>
+          <a id="main-navbar-contact" class="nav-link" href="/contact.shtml"
+            >Contacto</a
+          >
         </li>
       </ul>
     </div>
