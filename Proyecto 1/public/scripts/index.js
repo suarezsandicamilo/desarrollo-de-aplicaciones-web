@@ -34,7 +34,7 @@ const setActiveClassOnNavLinks = (pages) => {
   const url = window.location.href;
 
   for (const page of pages) {
-    const element = document.querySelector(`#main-navbar-${page}`);
+    const element = document.querySelector(`#top-navbar-item-${page}`);
 
     if (url.endsWith(`${page}.shtml`)) {
       setActiveClassOnNavLink(element);
@@ -43,7 +43,7 @@ const setActiveClassOnNavLinks = (pages) => {
   }
 
   // Case for index
-  const element = document.querySelector("#main-navbar-index");
+  const element = document.querySelector("#top-navbar-item-index");
   setActiveClassOnNavLink(element);
 };
 
