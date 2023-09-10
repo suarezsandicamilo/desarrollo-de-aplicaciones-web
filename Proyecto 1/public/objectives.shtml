@@ -14,6 +14,27 @@
 
 <!--#include virtual="./header.shtml"-->
 
+    <div id="content" class="container">
+      <h2 id="content-title">Objetivos</h2>
+      <ul>
+        <li>
+          <b>Crecimiento Personal</b>
+          <span
+            >: Mejorar continuamente mis habilidades y conocimientos para
+            destacar en mi carrera.</span
+          >
+        </li>
+        <li>
+          <b>Desarrollo Personal</b>
+          <span>: Buscar el crecimiento personal y la auto-superación.</span>
+        </li>
+        <li>
+          <b>Contribuir a la Sociedad</b>
+          <span>: Tener un impacto positivo en el mundo que me rodea.</span>
+        </li>
+      </ul>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

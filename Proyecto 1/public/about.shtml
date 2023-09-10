@@ -14,6 +14,26 @@
 
 <!--#include virtual="./header.shtml"-->
 
+    <div id="content" class="container">
+      <h2 id="content-title">Acerca De</h2>
+      <p>Conoce más sobre mí, mi historia y mi trayectoria.</p>
+      <ul>
+        <li>
+          <b>Antecedentes</b
+          ><span
+            >: Una breve descripción de tu educación y tus primeros años.</span
+          >
+        </li>
+        <li>
+          <b>Filosofía</b><span>: Mis valores personales y profesionales.</span>
+        </li>
+        <li>
+          <b>Logros</b
+          ><span>: Algunos logros notables o hitos en tu carrera.</span>
+        </li>
+      </ul>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

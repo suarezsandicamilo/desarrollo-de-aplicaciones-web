@@ -14,6 +14,31 @@
 
 <!--#include virtual="./header.shtml"-->
 
+    <div id="content" class="container">
+      <h2 id="content-title">Contacto</h2>
+      <p>
+        ¡Me encantaría conectar contigo! No dudes en ponerte en contacto a
+        través de los siguientes canales:
+      </p>
+      <ul>
+        <li>
+          <b>Correo Electrónico</b><span>: </span>
+          <a href="mailto:correo@tudireccion.com">correo@tudireccion.com</a>
+        </li>
+        <li>
+          <b>Redes Sociales</b
+          ><span>: Enlaces a tus perfiles de redes sociales.</span>
+        </li>
+        <li>
+          <b>Formulario de Contacto</b
+          ><span
+            >: También puedes usar el formulario de contacto en esta página para
+            enviarme un mensaje directamente.</span
+          >
+        </li>
+      </ul>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

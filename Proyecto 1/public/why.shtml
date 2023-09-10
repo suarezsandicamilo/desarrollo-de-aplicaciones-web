@@ -14,6 +14,29 @@
 
 <!--#include virtual="./header.shtml"-->
 
+    <div id="content" class="container">
+      <h2 id="content-title">¿Por Qué?</h2>
+      <p>Soy apasionado por mi campo porque me permite...</p>
+      <ul>
+        <li>
+          <b>Marcar la Diferencia</b>
+          <span
+            >: Mi trabajo impacta directamente la vida de las personas.</span
+          >
+        </li>
+        <li>
+          <b>Aprendizaje Continuo</b>
+          <span>: Es un campo en constante evolución.</span>
+        </li>
+        <li>
+          <b>Creatividad</b>
+          <span
+            >: Tengo la oportunidad de explorar soluciones innovadoras.</span
+          >
+        </li>
+      </ul>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

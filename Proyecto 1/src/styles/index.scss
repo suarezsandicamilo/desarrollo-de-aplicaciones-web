@@ -1,12 +1,12 @@
 //
 
-$body-color: #BFC8D9;
-$body-bg: #14181F;
+$body-color: #bfc8d9;
+$body-bg: #14181f;
 
 $base-border-color: rgba(255, 255, 255, 0.05);
 
-$header-brand-color: #5C85D6;
-$career-dropdown-link-hover-bg: #0F1F3D;
+$header-brand-color: #5c85d6;
+$career-dropdown-link-hover-bg: #0f1f3d;
 
 @import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -21,6 +21,8 @@ $career-dropdown-link-hover-bg: #0F1F3D;
   @extend .navbar-expand;
 
   border-bottom: 1px solid $base-border-color;
+
+  margin-bottom: 16px;
 }
 
 #header-brand {
@@ -77,4 +79,8 @@ $career-dropdown-link-hover-bg: #0F1F3D;
   &:hover {
     background-color: $career-dropdown-link-hover-bg;
   }
+}
+
+#content-title {
+  margin-bottom: 16px;
 }

@@ -14,6 +14,19 @@
 
 <!--#include virtual="./header.shtml"-->
 
+    <div id="content" class="container">
+      <h2 id="content-title">Profesores</h2>
+      <p>
+        He tenido el privilegio de aprender de profesores increíbles que han
+        moldeado mi carrera. Su orientación y mentoría han sido invaluables.
+      </p>
+      <ul>
+        <li>Profesor 1: [Nombre del profesor]</li>
+        <li>Profesor 2: [Nombre del profesor]</li>
+        <li>Profesor 3: [Nombre del profesor]</li>
+      </ul>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

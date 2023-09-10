@@ -14,6 +14,29 @@
 
 <!--#include virtual="./header.shtml"-->
 
+    <div id="content" class="container">
+      <h2 id="content-title">Intereses</h2>
+      <p>
+        Fuera de mi carrera, tengo una amplia gama de intereses que me mantienen
+        comprometido e inspirado.
+      </p>
+      <ul>
+        <li><b>Pasatiempos</b><span>: [Enumera tus pasatiempos]</span></li>
+        <li><b>Viajes</b><span>: Explorar nuevos lugares y culturas.</span></li>
+        <li>
+          <b>Lectura</b
+          ><span
+            >: Soy un ávido lector y me encanta sumergirme en diferentes
+            géneros.</span
+          >
+        </li>
+        <li>
+          <b>Trabajo Voluntario</b
+          ><span>: Devolver a la comunidad es importante para mí.</span>
+        </li>
+      </ul>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
