@@ -46,7 +46,7 @@ const setActiveClassOnNavLinks = (pages, menu_pages) => {
   const url = window.location.href;
 
   for (const page of pages) {
-    const element = document.querySelector(`#top-navbar-item-${page}`);
+    const element = document.querySelector(`#header-item-${page}`);
 
     if (url.endsWith(`${page}.shtml`)) {
       setActiveClassOnNavLink(element);
@@ -55,7 +55,7 @@ const setActiveClassOnNavLinks = (pages, menu_pages) => {
         const parent_page = menu_pages[page];
 
         const parent_element = document.querySelector(
-          `#top-navbar-item-${parent_page}`
+          `#header-item-${parent_page}`
         );
 
         setActiveClassOnNavLink(parent_element);
@@ -66,7 +66,7 @@ const setActiveClassOnNavLinks = (pages, menu_pages) => {
   }
 
   // Case for index
-  const element = document.querySelector("#top-navbar-item-index");
+  const element = document.querySelector("#header-item-index");
 
   setActiveClassOnNavLink(element);
 };

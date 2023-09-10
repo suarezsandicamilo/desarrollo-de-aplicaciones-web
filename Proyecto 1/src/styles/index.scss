@@ -15,14 +15,14 @@ $career-dropdown-link-hover-bg: #0f1f3d;
   font-family: Roboto;
 }
 
-#top-navbar {
+#header {
   @extend .navbar;
   @extend .navbar-expand;
 
   border-bottom: 1px solid $base-border-color;
 }
 
-#top-navbar-brand {
+#header-brand {
   @extend .navbar-brand;
   margin-left: var(--bs-navbar-brand-margin-end);
   color: $body-color;
@@ -32,7 +32,7 @@ $career-dropdown-link-hover-bg: #0f1f3d;
   }
 }
 
-.top-navbar-item {
+.header-item {
   @extend .nav-link;
   color: $body-color;
 
@@ -43,7 +43,7 @@ $career-dropdown-link-hover-bg: #0f1f3d;
 }
 
 .navbar-nav {
-  .top-navbar-item {
+  .header-item {
     &.active,
     &.show {
       color: $body-color;
