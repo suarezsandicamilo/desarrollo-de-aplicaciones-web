@@ -1,11 +1,12 @@
 //
 
-$body-color: #bfc8d9;
-$body-bg: #14181f;
+$body-color: #BFC8D9;
+$body-bg: #14181F;
 
 $base-border-color: rgba(255, 255, 255, 0.05);
 
-$career-dropdown-link-hover-bg: #0f1f3d;
+$header-brand-color: #5C85D6;
+$career-dropdown-link-hover-bg: #0F1F3D;
 
 @import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -25,10 +26,10 @@ $career-dropdown-link-hover-bg: #0f1f3d;
 #header-brand {
   @extend .navbar-brand;
   margin-left: var(--bs-navbar-brand-margin-end);
-  color: $body-color;
+  color: $header-brand-color;
 
   &:hover {
-    color: $body-color;
+    color: $header-brand-color;
   }
 }
 
