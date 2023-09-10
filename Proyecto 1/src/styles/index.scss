@@ -1,69 +1,79 @@
 //
 
+$body-color: #bfc8d9;
+$body-bg: #14181f;
+
+$base-border-color: rgba(255, 255, 255, 0.05);
+
+$career-dropdown-link-hover-bg: #0f1f3d;
+
 @import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-$color-1: #0d0a0c;
-$color-2: #241e26;
-$color-3: #f28d35;
-$color-4: #8c1818;
-$color-5: #731d1d;
-
-$text-color-1: #ffffff;
-
-$link-color-1: $color-3;
-$link-color-2: adjust-color($link-color-1, $lightness: 25);
 
 * {
   font-family: Roboto;
 }
 
-body {
-  background-color: $color-1;
-}
-
-a {
-  color: $link-color-1;
-  text-decoration: none;
-}
-
-a:active,
-a:hover,
-a:link,
-a.active {
-  color: $link-color-2 !important;
-}
-
 #top-navbar {
   @extend .navbar;
   @extend .navbar-expand;
-  background-color: $color-5;
+
+  border-bottom: 1px solid $base-border-color;
 }
 
 #top-navbar-brand {
   @extend .navbar-brand;
   margin-left: var(--bs-navbar-brand-margin-end);
-  color: $link-color-1;
+  color: $body-color;
+
+  &:hover {
+    color: $body-color;
+  }
 }
 
 .top-navbar-item {
   @extend .nav-link;
-  color: $link-color-1;
+  color: $body-color;
+
+  &:hover,
+  &:target {
+    color: $body-color;
+  }
 }
 
-.top-navbar-item.show {
-  color: $link-color-2 !important;
+.navbar-nav {
+  .top-navbar-item {
+    &.active,
+    &.show {
+      color: $body-color;
+      font-weight: bold;
+    }
+  }
 }
 
 #career-dropdown-menu {
-  background-color: $color-5;
+  border-color: $base-border-color;
 }
 
 .career-dropdown-item {
-  background-color: $color-5;
-}
+  padding: 0;
 
-.career-dropdown-item:hover {
-  background-color: $color-5;
+  a {
+    @extend .dropdown-item;
+
+    padding: 8px 32px;
+
+    &.active {
+      background-color: $body-bg;
+    }
+
+    &:hover {
+      background-color: $career-dropdown-link-hover-bg;
+    }
+  }
+
+  &:hover {
+    background-color: $career-dropdown-link-hover-bg;
+  }
 }
