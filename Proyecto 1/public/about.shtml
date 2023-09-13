@@ -16,20 +16,51 @@
 
     <div id="content" class="container">
       <h2 id="content-title">Acerca De</h2>
-      <p>Conoce más sobre mí, mi historia y mi trayectoria.</p>
+      <p>
+        Este sitio web es un proyecto que forma parte de mi curso de Desarrollo
+        de Aplicaciones Web. Su propósito principal es proporcionar una
+        plataforma donde puedo aplicar y demostrar mis conocimientos en HTML,
+        CSS y JavaScript, así como explorar tecnologías adicionales como
+        Bootstrap y Apache HTTP Server con Server Side Includes (SSI).
+      </p>
+
+      <h3>Aprendizaje y Desarrollo</h3>
+
+      <p>
+        Como estudiante apasionado de Computación, valoro la oportunidad de
+        aprender a través de la práctica y la aplicación de mis habilidades.
+        Este proyecto me ha permitido adentrarme en el mundo del desarrollo web
+        y adquirir experiencia práctica en la creación de un sitio web
+        interactivo y funcional.
+      </p>
+
+      <h3>Tecnologías Utilizadas</h3>
+
       <ul>
         <li>
-          <b>Antecedentes</b
-          ><span
-            >: Una breve descripción de tu educación y tus primeros años.</span
-          >
+          <b>HTML</b>: HTML es el lenguaje fundamental que utilizo para
+          estructurar y organizar el contenido de este sitio web.
         </li>
         <li>
-          <b>Filosofía</b><span>: Mis valores personales y profesionales.</span>
+          <b>CSS</b>: CSS se emplea para dar estilo y diseño al sitio web,
+          asegurando una presentación atractiva y coherente.
         </li>
         <li>
-          <b>Logros</b
-          ><span>: Algunos logros notables o hitos en tu carrera.</span>
+          <b>JavaScript</b>: JavaScript se utiliza para la interactividad y la
+          funcionalidad dinámica del sitio web. Esto permite que la página
+          responda a las acciones del usuario de manera eficiente.
+        </li>
+        <li>
+          <b>Bootstrap</b>: Bootstrap es un marco de diseño de código abierto
+          que simplifica el proceso de diseño web al proporcionar componentes y
+          estilos predefinidos que mejoran la apariencia y la usabilidad del
+          sitio.
+        </li>
+        <li>
+          <b>Apache HTTP Server con Server Side Includes</b>: Esta configuración
+          de servidor permite la inclusión de fragmentos de código HTML en las
+          páginas web a través de SSI. Esto mejora la eficiencia y la facilidad
+          de mantenimiento del sitio.
         </li>
       </ul>
     </div>
