@@ -17,24 +17,58 @@
     <div id="content" class="container">
       <h2 id="content-title">Intereses</h2>
       <p>
-        Fuera de mi carrera, tengo una amplia gama de intereses que me mantienen
-        comprometido e inspirado.
+        Mi vida está llena de intereses variados que me mantienen motivado y
+        comprometido tanto en mi tiempo libre como en mi camino académico. A
+        continuación, te comparto algunos de mis intereses más apasionantes:
       </p>
-      <ul>
-        <li><b>Pasatiempos</b><span>: [Enumera tus pasatiempos]</span></li>
-        <li><b>Viajes</b><span>: Explorar nuevos lugares y culturas.</span></li>
-        <li>
-          <b>Lectura</b
-          ><span
-            >: Soy un ávido lector y me encanta sumergirme en diferentes
-            géneros.</span
-          >
-        </li>
-        <li>
-          <b>Trabajo Voluntario</b
-          ><span>: Devolver a la comunidad es importante para mí.</span>
-        </li>
-      </ul>
+
+      <p>
+        <b>Arte y Dibujo</b>: Dibujar es mi forma de expresión creativa favorita. Me
+        encanta plasmar mi imaginación en el papel y explorar diferentes estilos
+        artísticos.
+      </p>
+
+      <p>
+        <b>Lectura</b>: Los libros son mi refugio. Me sumerjo en historias y aprendo de
+        diversas perspectivas culturales. Mis sagas literarias favoritas son "A
+        Song of Ice and Fire" y "Lord of the Rings."
+      </p>
+
+      <p>
+        <b>Música y Guitarra</b>: Tocar la guitarra es mi pasión musical. La música me
+        conecta con emociones únicas, y explorar nuevos géneros y canciones es
+        una fuente de alegría constante.
+      </p>
+
+      <p>
+        <b>Videojuegos</b>: Soy un ávido jugador de videojuegos y disfruto explorar
+        mundos virtuales, resolver desafíos y sumergirme en narrativas
+        cautivadoras. Algunos de mis títulos favoritos incluyen "Cuphead," "Dark
+        Souls," "Hades," "Hollow Knight," "Minecraft," "Sekiro," "League of
+        Legends," y clásicos como "The Legends of Zelda: A Link to the Past" y
+        "Super Mario World."
+      </p>
+
+      <p>
+        <b>Cine y Series</b>: El cine y las series son una fuente de entretenimiento y
+        reflexión para mí. Tengo una amplia lista de películas favoritas que
+        incluye "The Godfather," "There Will Be Blood," "The Dark Knight," "Pulp
+        Fiction," "The Truman Show," "Mad Max: Fury Road," "Eternal Sunshine of
+        the Spotless Mind," "Blade Runner 2049," y muchas más. Además, disfruto
+        de una variedad de series como "Rick and Morty," "South Park," "Breaking
+        Bad," "Game of Thrones," y "Dark," entre otras.
+      </p>
+
+      <p>
+        Estos intereses no solo son una parte integral de quién soy, sino que
+        también influyen en mi creatividad, mi forma de pensar y mi enfoque
+        hacia la vida. Cada uno de estos pasatiempos y actividades enriquece mi
+        perspectiva y me brinda la oportunidad de aprender y crecer. Si
+        compartes alguno de estos intereses o deseas recomendaciones, ¡no dudes
+        en ponerte en contacto! Estoy siempre entusiasmado por conectar con
+        personas que comparten mi pasión por la creatividad, la cultura y la
+        tecnología.
+      </p>
     </div>
 
     <script
