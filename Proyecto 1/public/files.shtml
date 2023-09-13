@@ -17,10 +17,48 @@
     <div id="content" class="container">
       <h2 id="content-title">Descargas</h2>
       <p>
-        Explora algunos de mis archivos y proyectos relacionados con el trabajo
-        aquí. (Puedes proporcionar enlaces o descripciones de
-        proyectos/archivos)
+        ¡Bienvenidos a la sección de Descargas de mi sitio web! Aquí encontrarás
+        recursos y archivos que he compartido para ayudarte en tu viaje de
+        aprendizaje y exploración. Los siguientes elementos están disponibles
+        para descargar:
       </p>
+
+      <ol>
+        <li>
+          <b>Apache HTTP Server</b>: Apache HTTP Server es un servidor web de
+          código abierto ampliamente utilizado. Si deseas configurar tu propio
+          servidor local para proyectos web, puedes descargar Apache HTTP Server
+          desde su sitio oficial:
+          <ul>
+            <li>
+              <a href="https://httpd.apache.org/"
+                >Descargar Apache HTTP Server</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>Bootstrap</b>: Bootstrap es un marco de diseño de código abierto
+          que simplifica el desarrollo web. Puedes descargar la última versión
+          de Bootstrap directamente desde su sitio oficial:
+          <ul>
+            <li><a href="https://getbootstrap.com/">Descargar Bootstrap</a></li>
+          </ul>
+        </li>
+        <li>
+          <b>Visual Studio Code</b>: Visual Studio Code es un editor de código
+          fuente de Microsoft que es muy popular entre los desarrolladores.
+          Puedes descargar la última versión de Visual Studio Code desde su
+          sitio oficial:
+          <ul>
+            <li>
+              <a href="https://code.visualstudio.com/"
+                >Descargar Visual Studio Code</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ol>
     </div>
 
     <script
