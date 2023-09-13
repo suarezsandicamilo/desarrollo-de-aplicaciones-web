@@ -16,25 +16,64 @@
 
     <div id="content" class="container">
       <h2 id="content-title">¿Por Qué?</h2>
-      <p>Soy apasionado por mi campo porque me permite...</p>
-      <ul>
-        <li>
-          <b>Marcar la Diferencia</b>
-          <span
-            >: Mi trabajo impacta directamente la vida de las personas.</span
-          >
-        </li>
-        <li>
-          <b>Aprendizaje Continuo</b>
-          <span>: Es un campo en constante evolución.</span>
-        </li>
-        <li>
-          <b>Creatividad</b>
-          <span
-            >: Tengo la oportunidad de explorar soluciones innovadoras.</span
-          >
-        </li>
-      </ul>
+      <p>
+        La elección de una carrera es un paso fundamental en la vida de
+        cualquier persona. Para mí, la respuesta a la pregunta "¿Por qué
+        Computación?" ha sido una travesía apasionante que ha influido
+        profundamente en mi camino personal y profesional. Permíteme compartir
+        contigo las razones detrás de mi elección y cómo la Computación ha
+        llegado a ser una parte fundamental de mi vida.
+      </p>
+
+      <h3>Una Pasión desde la Infancia</h3>
+
+      <p>
+        Desde una edad temprana, me sentí atraído por la tecnología y las
+        computadoras. Los videojuegos, las aplicaciones y los dispositivos
+        electrónicos siempre me fascinaron. Desmontaba juguetes para ver cómo
+        funcionaban y exploraba el mundo digital con curiosidad. Esta pasión
+        innata por la tecnología sentó las bases para mi futuro en la
+        Computación.
+      </p>
+
+      <h3>Solucionar Problemas con Creatividad</h3>
+
+      <p>
+        La Computación ofrece una oportunidad única para combinar creatividad
+        con resolución de problemas. Me di cuenta de que podía utilizar mi
+        imaginación para crear software, aplicaciones y sistemas que abordaran
+        desafíos del mundo real. Esta capacidad de crear soluciones innovadoras
+        y útiles fue un gran atractivo para mí.
+      </p>
+
+      <h3>Un Mundo en Constante Evolución</h3>
+
+      <p>
+        La tecnología nunca se detiene; siempre está evolucionando y avanzando.
+        Esto me emociona porque significa que nunca dejaré de aprender y crecer.
+        La Computación me permite estar en la vanguardia de estos avances, lo
+        que me desafía a mantenerme actualizado y seguir mejorando mis
+        habilidades constantemente.
+      </p>
+
+      <h3>Impacto en la Sociedad</h3>
+
+      <p>
+        Una de las razones más convincentes para elegir la Computación es su
+        impacto en la sociedad. Las tecnologías que los profesionales en este
+        campo desarrollan pueden cambiar la forma en que vivimos, trabajamos y
+        nos comunicamos. Quiero ser parte de ese cambio positivo y contribuir a
+        la creación de soluciones que mejoren la vida de las personas.
+      </p>
+
+      <p>
+        En resumen, elegí la Computación porque representa mi pasión, mi deseo
+        de crear, mi amor por el aprendizaje constante y mi anhelo de tener un
+        impacto positivo en el mundo. A medida que avanzo en mi viaje en esta
+        disciplina, estoy emocionado por descubrir dónde me llevará y cómo podré
+        contribuir al mundo de la tecnología y la innovación. Gracias por unirte
+        a mí en esta emocionante aventura.
+      </p>
     </div>
 
     <script
