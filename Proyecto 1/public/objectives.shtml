@@ -16,23 +16,77 @@
 
     <div id="content" class="container">
       <h2 id="content-title">Objetivos</h2>
-      <ul>
+      <p>
+        Bienvenido a la sección de Objetivos de mi sitio web, donde quiero
+        compartir contigo mis aspiraciones y metas personales y profesionales. A
+        medida que avanzo en mi carrera académica en el campo de la Computación,
+        he definido una serie de objetivos que me motivan y me guían en mi
+        camino. Aquí te contaré más sobre ellos:
+      </p>
+
+      <ol>
         <li>
-          <b>Crecimiento Personal</b>
-          <span
-            >: Mejorar continuamente mis habilidades y conocimientos para
-            destacar en mi carrera.</span
-          >
+          <b>Excelencia Académica</b>: Mi objetivo principal como estudiante es
+          alcanzar la excelencia académica. Deseo aprender todo lo que pueda
+          sobre la Computación y sus aplicaciones, lo que incluye mantener un
+          alto rendimiento académico y buscar oportunidades de aprendizaje
+          adicionales, como proyectos de investigación y prácticas en la
+          industria.
         </li>
         <li>
-          <b>Desarrollo Personal</b>
-          <span>: Buscar el crecimiento personal y la auto-superación.</span>
+          <b>Contribuir a la Innovación</b>: Creo firmemente que la tecnología tiene el
+          poder de transformar el mundo. Mi objetivo es utilizar mis
+          conocimientos en Computación para contribuir a la innovación y
+          desarrollar soluciones tecnológicas que aborden problemas importantes
+          y mejoren la calidad de vida de las personas.
         </li>
         <li>
-          <b>Contribuir a la Sociedad</b>
-          <span>: Tener un impacto positivo en el mundo que me rodea.</span>
+          <b>Colaboración Interdisciplinaria</b>: Reconozco que la tecnología no existe
+          en un vacío y a menudo se entrelaza con otros campos, como la
+          medicina, la biología y la sostenibilidad. Quiero colaborar con
+          expertos de diferentes disciplinas para crear soluciones
+          interdisciplinarias que aborden desafíos complejos.
         </li>
-      </ul>
+        <li>
+          <b>Aprendizaje Continuo</b>: La tecnología avanza a un ritmo vertiginoso, por
+          lo que es fundamental mantenerse actualizado. Mi objetivo es nunca
+          dejar de aprender, explorar nuevas tecnologías y seguir desarrollando
+          mis habilidades técnicas.
+        </li>
+        <li>
+          <b>Mentoría y Compartir Conocimiento</b>: A medida que avance en mi carrera,
+          me gustaría convertirme en un mentor para estudiantes interesados en
+          Computación y compartir mi conocimiento y experiencia con la próxima
+          generación de profesionales.
+        </li>
+        <li>
+          <b>Impacto Social Positivo</b>: Creo en la responsabilidad social de los
+          profesionales de la tecnología. Mi objetivo es utilizar la tecnología
+          de manera ética y buscar oportunidades para contribuir a proyectos que
+          tengan un impacto social positivo, como la educación en línea o la
+          tecnología accesible.
+        </li>
+        <li>
+          <b>Equilibrio entre Vida y Trabajo</b>: Si bien me apasiona mi campo de
+          estudio, también valoro un equilibrio saludable entre mi vida personal
+          y profesional. Mi objetivo es encontrar esa armonía, lo que incluye
+          tiempo para mis pasatiempos y relaciones personales.
+        </li>
+        <li>
+          <b>Desarrollo de Proyectos Personales</b>: Además de mis estudios académicos,
+          tengo la intención de embarcarme en proyectos personales relacionados
+          con la tecnología, como aplicaciones móviles, juegos o desarrollo web,
+          para aplicar y expandir mis habilidades.
+        </li>
+      </ol>
+
+      <p>
+        Estos objetivos son una guía constante en mi vida, y estoy comprometido
+        a trabajar arduamente para alcanzarlos. A medida que avanzo en mi
+        carrera, seguiré actualizando esta sección para compartir mis logros y
+        cómo estos objetivos continúan moldeando mi trayectoria en el mundo de
+        la Computación.
+      </p>
     </div>
 
     <script
