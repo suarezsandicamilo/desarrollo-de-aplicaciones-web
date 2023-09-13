@@ -48,6 +48,22 @@ $career-dropdown-link-hover-bg: #0f1f3d;
   }
 }
 
+#footer {
+  @extend .navbar;
+  @extend .fixed-bottom;
+
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#footer-text {
+  @extend .container;
+  @extend .text-center;
+
+  p {
+    margin: auto;
+  }
+}
+
 .navbar-nav {
   .header-item {
     &.active,
