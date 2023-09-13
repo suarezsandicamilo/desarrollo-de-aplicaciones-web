@@ -17,11 +17,39 @@
     <div id="content" class="container">
       <h2 id="content-title">Compañeros</h2>
       <p>
-        He tenido el placer de trabajar con colegas increíbles y formar
-        amistades duraderas en el camino.
+        A lo largo de mi tiempo en la Universidad de Costa Rica, he tenido el
+        placer de conocer a compañeros excepcionales que han enriquecido mi
+        experiencia académica y personal. Entre estos compañeros, algunos se han
+        destacado de manera significativa y han dejado una huella duradera en mi
+        recorrido universitario. A continuación, te presento una lista de
+        algunos de los compañeros más significativos para mí:
+      </p>
+
+      <ol>
+        <li>Ángel C</li>
+        <li>Cristopher H</li>
+        <li>David C</li>
+        <li>Esteban I</li>
+        <li>Ignacio R</li>
+      </ol>
+
+      <p>
+        Estos compañeros no solo han sido colegas en el aula, sino también
+        amigos y aliados en nuestra búsqueda de conocimiento y crecimiento en el
+        campo de la Computación. Juntos, hemos enfrentado desafíos académicos,
+        compartido conocimientos y celebrado logros. Su influencia positiva en
+        mi viaje universitario ha sido una parte fundamental de mi experiencia.
+      </p>
+
+      <p>
+        A medida que continuamos avanzando en nuestra educación y en nuestras
+        carreras individuales, espero mantener estas conexiones y colaboraciones
+        valiosas. Nuestro compromiso con la excelencia académica y nuestro amor
+        por la Computación nos une en una comunidad de aprendizaje en constante
+        evolución. ¡Gracias a estos compañeros por su amistad y contribuciones a
+        mi trayectoria en la universidad!
       </p>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
