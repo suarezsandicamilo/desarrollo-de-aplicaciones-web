@@ -17,14 +17,40 @@
     <div id="content" class="container">
       <h2 id="content-title">Profesores</h2>
       <p>
-        He tenido el privilegio de aprender de profesores increíbles que han
-        moldeado mi carrera. Su orientación y mentoría han sido invaluables.
+        A lo largo de mi recorrido académico en la Escuela de Ciencias de la
+        Computación e Informática de la Universidad de Costa Rica, he tenido el
+        privilegio de aprender de una distinguida lista de profesores que han
+        contribuido de manera significativa a mi formación y crecimiento como
+        estudiante de Computación.
       </p>
-      <ul>
-        <li>Profesor 1: [Nombre del profesor]</li>
-        <li>Profesor 2: [Nombre del profesor]</li>
-        <li>Profesor 3: [Nombre del profesor]</li>
-      </ul>
+
+      <ol>
+        <li>Alberto Rojas Salazar</li>
+        <li>Braulio José Solano Rojas</li>
+        <li>Bryan Ulate Caballero</li>
+        <li>Carlos Vargas Castillo</li>
+        <li>Christian Quesada López</li>
+        <li>Daniel Alvarado González</li>
+        <li>Daniel Cabezas Vindas</li>
+        <li>Erik Kuhlmann Salazar</li>
+        <li>Francisco Arroyo Mora</li>
+        <li>Jeisson Hidalgo Céspedes</li>
+        <li>Jose Pablo Ramírez Méndez</li>
+        <li>Luis Gustavo Esquivel Quirós</li>
+        <li>María Isabel Murillo Quintana</li>
+        <li>Ricardo Gang Vincenzi</li>
+        <li>Sandra Kikut Valverde</li>
+        <li>Sivana Hamer Campos</li>
+      </ol>
+
+      <p>
+        Estos son solo algunos de los profesores que han influido en mi
+        educación y han enriquecido mi comprensión de la Computación. Cada uno
+        de ellos ha aportado valiosas lecciones y perspectivas a mi viaje
+        académico. Les estoy agradecido por su dedicación y conocimiento, que
+        han sido fundamentales para mi crecimiento como estudiante de
+        Computación.
+      </p>
     </div>
 
     <script
