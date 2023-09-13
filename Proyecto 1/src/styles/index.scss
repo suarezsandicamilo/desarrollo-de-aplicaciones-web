@@ -19,6 +19,9 @@ $career-dropdown-link-hover-bg: #0f1f3d;
 #header {
   @extend .navbar;
   @extend .navbar-expand;
+  @extend .fixed-top;
+
+  background-color: $body-bg;
 
   border-bottom: 1px solid $base-border-color;
 
@@ -79,6 +82,10 @@ $career-dropdown-link-hover-bg: #0f1f3d;
   &:hover {
     background-color: $career-dropdown-link-hover-bg;
   }
+}
+
+#content {
+  margin-top: 80px;
 }
 
 #content-title {
