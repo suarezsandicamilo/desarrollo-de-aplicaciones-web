@@ -17,26 +17,29 @@
     <div id="content" class="container">
       <h2 id="content-title">Contacto</h2>
       <p>
-        ¡Me encantaría conectar contigo! No dudes en ponerte en contacto a
-        través de los siguientes canales:
+        Si deseas comunicarte conmigo o tienes alguna pregunta, sugerencia o
+        simplemente deseas entablar una conversación, estoy aquí para escucharte
+        y responder tus consultas.
       </p>
+
+      <h3>Datos de Contacto</h3>
+
       <ul>
+        <li><b>Nombre</b>: Camilo Suárez Sandí</li>
         <li>
-          <b>Correo Electrónico</b><span>: </span>
-          <a href="mailto:correo@tudireccion.com">correo@tudireccion.com</a>
+          <b>Correo Electrónico</b>:
+          <a href="mailto:camilo.suarez@ucr.ac.cr">camilo.suarez@ucr.ac.cr</a>
         </li>
-        <li>
-          <b>Redes Sociales</b
-          ><span>: Enlaces a tus perfiles de redes sociales.</span>
-        </li>
-        <li>
-          <b>Formulario de Contacto</b
-          ><span
-            >: También puedes usar el formulario de contacto en esta página para
-            enviarme un mensaje directamente.</span
-          >
-        </li>
+        <li><b>Institución</b>: Universidad de Costa Rica</li>
       </ul>
+
+      <h3>Cómo Contactarme</h3>
+
+      <p>
+        Puedes enviarme un correo electrónico a la dirección proporcionada
+        anteriormente para cualquier consulta o comentario. Estoy disponible y
+        comprometido a responder con prontitud.
+      </p>
     </div>
 
     <script
