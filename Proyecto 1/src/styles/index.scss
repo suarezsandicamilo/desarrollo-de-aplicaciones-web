@@ -3,6 +3,10 @@
 $body-color: #bfc8d9;
 $body-bg: #14181f;
 
+$link-color: #5c85d6;
+$link-color-hover: #8da9e2;
+$link-color-active: #3162c4;
+
 $base-border-color: rgba(255, 255, 255, 0.05);
 
 $header-brand-color: #5c85d6;
@@ -14,6 +18,21 @@ $career-dropdown-link-hover-bg: #0f1f3d;
 
 * {
   font-family: Roboto;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: $link-color-active;
+    text-decoration: underline;
+  }
 }
 
 #header {
