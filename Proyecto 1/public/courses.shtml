@@ -17,14 +17,40 @@
     <div id="content" class="container">
       <h2 id="content-title">Cursos</h2>
       <p>
-        A lo largo de mi carrera, he tomado numerosos cursos para mejorar mis
-        habilidades. Algunos de los más destacados incluyen...
+        Mi recorrido académico en la Escuela de Ciencias de la Computación e
+        Informática de la Universidad de Costa Rica ha sido una emocionante
+        travesía de aprendizaje. A lo largo de los años, he tenido la
+        oportunidad de estudiar una amplia variedad de cursos que han ampliado
+        mi comprensión de la Computación y me han preparado para los desafíos
+        del mundo tecnológico. A continuación, te presento una lista de los
+        cursos que he cursado:
       </p>
-      <ul>
-        <li>Curso 1: [Nombre del Curso]</li>
-        <li>Curso 2: [Nombre del Curso]</li>
-        <li>Curso 3: [Nombre del Curso]</li>
-      </ul>
+
+      <ol>
+        <li>Introducción a la Computación</li>
+        <li>Estructuras Discretas</li>
+        <li>Programación</li>
+        <li>Fundamentos de Arquitectura</li>
+        <li>Probabilidad y Estadística</li>
+        <li>Análisis de Algoritmos y Estructuras de Datos</li>
+        <li>Programación Paralela y Concurrente</li>
+        <li>Lenguaje Ensamblador</li>
+        <li>Redes de Comunicación de Datos</li>
+        <li>Sistemas Operativos</li>
+        <li>Interacción Humano Computador</li>
+        <li>Diseño de Software</li>
+        <li>Ingeniería de Software</li>
+        <li>Bases de Datos</li>
+        <li>Desarrollo de Aplicaciones Web</li>
+      </ol>
+
+      <p>
+        Estos cursos han abarcado una amplia gama de temas, desde los
+        fundamentos de la programación y la teoría de algoritmos hasta la
+        interacción humano-computadora y el desarrollo de aplicaciones web. Cada
+        curso ha contribuido a mi formación y ha enriquecido mi comprensión de
+        la Computación en diferentes aspectos.
+      </p>
     </div>
 
     <script
