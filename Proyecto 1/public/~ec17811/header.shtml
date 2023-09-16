@@ -1,18 +1,18 @@
 <nav id="header">
   <div class="container-fluid">
-    <a id="header-brand" href="/">
+    <a id="header-brand" href="/~ec17811/">
       <i class="fa-solid fa-code"></i>
     </a>
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a id="header-item-index" class="header-item" href="/">Inicio</a>
+          <a id="header-item-index" class="header-item" href="/~ec17811/">Inicio</a>
         </li>
         <li class="nav-item">
           <a
             id="header-item-objectives"
             class="header-item"
-            href="/objectives.shtml"
+            href="/~ec17811/objectives.shtml"
             >Objetivos</a
           >
         </li>
@@ -30,31 +30,31 @@
               id="career-dropdown-item-why"
               class="career-dropdown-item dropdown-item"
             >
-              <a id="header-item-why" href="/why.shtml">¿Por qué?</a>
+              <a id="header-item-why" href="/~ec17811/why.shtml">¿Por qué?</a>
             </li>
             <li
               id="career-dropdown-item-courses"
               class="career-dropdown-item dropdown-item"
             >
-              <a id="header-item-courses" href="/courses.shtml">Cursos</a>
+              <a id="header-item-courses" href="/~ec17811/courses.shtml">Cursos</a>
             </li>
             <li
               id="career-dropdown-item-teachers"
               class="career-dropdown-item dropdown-item"
             >
-              <a id="header-item-teachers" href="/teachers.shtml">Profesores</a>
+              <a id="header-item-teachers" href="/~ec17811/teachers.shtml">Profesores</a>
             </li>
             <li
               id="career-dropdown-item-friends"
               class="career-dropdown-item dropdown-item"
             >
-              <a id="header-item-friends" href="/friends.shtml">Compañeros</a>
+              <a id="header-item-friends" href="/~ec17811/friends.shtml">Compañeros</a>
             </li>
             <li
               id="career-dropdown-item-files"
               class="career-dropdown-item dropdown-item"
             >
-              <a id="header-item-files" href="/files.shtml">Descargas</a>
+              <a id="header-item-files" href="/~ec17811/files.shtml">Descargas</a>
             </li>
           </ul>
         </li>
@@ -62,17 +62,17 @@
           <a
             id="header-item-interests"
             class="header-item"
-            href="/interests.shtml"
+            href="/~ec17811/interests.shtml"
             >Intereses</a
           >
         </li>
         <li class="nav-item">
-          <a id="header-item-about" class="header-item" href="/about.shtml"
+          <a id="header-item-about" class="header-item" href="/~ec17811/about.shtml"
             >Acerca De</a
           >
         </li>
         <li class="nav-item">
-          <a id="header-item-contact" class="header-item" href="/contact.shtml"
+          <a id="header-item-contact" class="header-item" href="/~ec17811/contact.shtml"
             >Contacto</a
           >
         </li>
