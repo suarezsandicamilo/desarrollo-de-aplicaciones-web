@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "start": "C:/Apache24/bin/httpd.exe",
-    "watch": "sass --watch src/styles:public/styles"
+    "watch": "sass --watch src/styles/:public/~ec17811/styles/"
   },
   "dependencies": {
     "bootstrap": "^5.3.1",
