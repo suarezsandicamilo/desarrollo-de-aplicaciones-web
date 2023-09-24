@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <template id="my-card">
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        .profile-wrapper {
+          width: 350px;
+          height: 450px;
+          position: relative;
+        }
+
+        .profile {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          overflow: hidden;
+          width: 350px;
+          height: 450px;
+          border-radius: 16px;
+          overflow: hidden;
+          box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+          cursor: pointer;
+          transition: 0.5s;
+        }
+
+        .profile .profile-image {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100%;
+          z-index: 2;
+          background-color: var(--background);
+          transition: 0.5s;
+        }
+
+        .profile-image img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        .profile:hover img {
+          opacity: 0.4;
+          transition: 0.5s;
+        }
+
+        .profile:hover .profile-image {
+          transform: translateY(-104px);
+          transition: all 0.9s;
+        }
+
+        .profile:hover .profile-bio {
+          opacity: 0.9;
+        }
+
+        .social-icons {
+          position: absolute;
+          display: flex;
+          gap: 12px;
+          z-index: 3;
+          bottom: 164px;
+        }
+
+        .social-icons li {
+          list-style: none;
+        }
+
+        .social-icons li a {
+          position: relative;
+          display: block;
+          display: grid;
+          place-items: center;
+          background: #fff;
+          font-size: 23px;
+          font-weight: bold;
+          width: 40px;
+          height: 40px;
+          border: 1px solid #cdcdcd;
+          border-radius: 4px;
+          transition: 0.2s;
+          transform: translateY(32px);
+          opacity: 0;
+        }
+
+        .social-icons li a:hover {
+          background: var(--background);
+          transition: 0.2s;
+        }
+
+        .social-icons li a svg {
+          color: var(--background);
+          transition: 0.2s;
+        }
+
+        .social-icons li a:hover svg {
+          color: white;
+          transition: 0.8s;
+          transform: rotateY(360deg);
+        }
+
+        .profile:hover .social-icons li a {
+          opacity: 1;
+        }
+
+        .profile:hover li:nth-child(1) a {
+          transition-delay: 0.1s;
+        }
+
+        .profile:hover li:nth-child(2) a {
+          transition-delay: 0.2s;
+        }
+
+        .profile:hover li:nth-child(3) a {
+          transition-delay: 0.3s;
+        }
+
+        .profile:hover li:nth-child(4) a {
+          transition-delay: 0.4s;
+        }
+
+        .profile-name {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: 4;
+          background: var(--background);
+          width: 100%;
+          height: 104px;
+          padding: 16px;
+          z-index: 1;
+          color: #333;
+          text-align: left;
+        }
+
+        .profile:hover .profile-name {
+          background-color: #fff;
+        }
+
+        .profile-name h2 {
+          margin-bottom: 8px;
+        }
+      </style>
+      <div class="profile-wrapper">
+        <div class="profile">
+          <div class="profile-image">
+            <img src="assets/profile.jpg" alt="Profile" />
+          </div>
+          <ul class="social-icons">
+            <li>
+              <a href="#instagram" title="Instagram">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  ></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#twitter" title="Twitter">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-twitter"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 
+                                              10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5
+                                              4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#threads" title="Threads">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M19 7.5c-1.333 -3 -3.667 -4.5 -7 -4.5c-5 0 -8 2.5 -8 9s3.5 9 8 9s7 -3 7
+                                              -5s-1 -5 -7 -5c-2.5 0 -3 1.25 -3 2.5c0 1.5 1 2.5 2.5 2.5c2.5 0 3.5 -1.5 
+                                              3.5 -5s-2 -4 -3 -4s-1.833 .333 -2.5 1"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#linkedin" title="Linkedin">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 
+                                               2 0 0 1 -2 -2z"
+                  ></path>
+                  <path d="M8 11l0 5"></path>
+                  <path d="M8 8l0 .01"></path>
+                  <path d="M12 16l0 -5"></path>
+                  <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="profile-name">
+            <h2>
+              <slot name="name"></slot>
+            </h2>
+            <div class="profile-bio">
+              <slot name="description"></slot>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+    <div class="container">
+      <my-card>
+        <span slot="name">Camilo Suárez Sandí</span>
+        <span slot="description"
+          >Soy un estudiante de Computación en la ECCI de la UCR.</span
+        >
+      </my-card>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
