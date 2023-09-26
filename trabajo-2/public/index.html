@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello, World!</title>
+    <title>Trabajo 2</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <p>Hello, World!</p>
+    <div class="container">
+      <div class="my-4">
+        <label class="form-label">Provincia:</label>
+        <select id="province-select" class="form-select">
+          <option value="1">San José</option>
+          <option value="2">Alajuela</option>
+          <option value="3">Cartago</option>
+          <option value="4">Heredia</option>
+        </select>
+      </div>
+      <div class="my-4">
+        <label class="form-label">Cantón:</label>
+        <select id="canton-select" class="form-select"></select>
+      </div>
+      <div class="my-4">
+        <label class="form-label">Distrito:</label>
+        <select id="district-select" class="form-select"></select>
+      </div>
+    </div>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>

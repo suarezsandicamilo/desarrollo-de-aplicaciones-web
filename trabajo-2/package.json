@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "C:\\Users\\Camilo\\Desktop\\php-8.2.10-Win32-vs16-x64\\php.exe -S localhost:8000 -t C:\\Users\\Camilo\\Desktop\\Git\\desarrollo-de-aplicaciones-web\\trabajo-2\\public"
+    "start": "C:\\Users\\Camilo\\Desktop\\php-8.2.10-Win32-vs16-x64\\php.exe -S 127.0.0.1:8000 -t C:\\Users\\Camilo\\Desktop\\Git\\desarrollo-de-aplicaciones-web\\trabajo-2\\public"
   },
   "author": "",
   "license": "MIT",
