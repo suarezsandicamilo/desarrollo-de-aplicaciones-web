@@ -164,7 +164,9 @@ class App {
 
     req.on("end", async () => {
       // Read the logs from the logs file
-      const response = await fetch("http://127.0.0.1:3000/get-logs", {
+      const host = req.headers.host;
+
+      const response = await fetch(`http://${host}/get-logs`, {
         method: "GET",
       });
 
