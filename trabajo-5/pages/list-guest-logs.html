@@ -20,14 +20,14 @@
         <a href="/">Enviar un nuevo comentario.</a>
       </div>
       <div class="mb-3">
-        <div id="logs"></div>
+        <div id="guest-logs"></div>
       </div>
     </div>
     <template id="guest-log-template">
       <style></style>
       <div class="card mb-3">
         <div class="card-header">
-          <slot name="guest-name"></slot> (<slot name="guest-email"></slot>)
+          <slot name="name"></slot> (<slot name="email"></slot>)
         </div>
         <div class="card-body">
           <p>

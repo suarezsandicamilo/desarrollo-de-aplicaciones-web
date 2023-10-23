@@ -17,28 +17,50 @@
         <h1>Libro de Visitas</h1>
       </div>
       <div class="mb-3">
-        <a href="/logs">Ver los comentarios de los visitantes anteriores.</a>
+        <a href="/list-guest-logs"
+          >Ver los comentarios de los visitantes anteriores.</a
+        >
       </div>
       <div class="mb-3">
         <p>Este formulario le permite enviar comentarios sobre este sitio:</p>
       </div>
-      <form id="add-log-form">
+      <form id="add-guest-log-form">
         <div class="mb-3">
-          <label class="form-label">Nombre:</label>
-          <input type="text" class="form-control" name="guest-name" required />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Correo electrónico:</label>
+          <label class="form-label" for="add-guest-log-form-name"
+            >Nombre:</label
+          >
           <input
-            type="email"
+            id="add-guest-log-form-name"
+            type="text"
             class="form-control"
-            name="guest-email"
+            name="name"
             required
+            autocomplete="name"
           />
         </div>
         <div class="mb-3">
-          <label class="form-label">Comentario:</label>
-          <textarea class="form-control" name="comment" required></textarea>
+          <label class="form-label" for="add-guest-log-form-email"
+            >Correo electrónico:</label
+          >
+          <input
+            id="add-guest-log-form-email"
+            type="email"
+            class="form-control"
+            name="email"
+            required
+            autocomplete="email"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="add-guest-log-form-comment"
+            >Comentario:</label
+          >
+          <textarea
+            id="add-guest-log-form-comment"
+            class="form-control"
+            name="comment"
+            required
+          ></textarea>
         </div>
         <div class="mb-3">
           <button type="submit" class="btn btn-primary mb-3">Enviar</button>

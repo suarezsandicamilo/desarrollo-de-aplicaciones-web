@@ -16,30 +16,30 @@ class GuestLogComponent extends HTMLElement {
 
 customElements.define("guest-log", GuestLogComponent);
 
-class Log {
-  constructor(guest_name, guest_email, comment, date) {
-    this.guest_name = guest_name;
-    this.guest_email = guest_email;
+class GuestLog {
+  constructor(name, email, comment, date) {
+    this.name = name;
+    this.email = email;
     this.comment = comment;
     this.date = date;
   }
 
   static fromJson(json) {
-    const { guest_name, guest_email, comment, date } = json;
+    const { name, email, comment, date } = json;
 
-    return new Log(guest_name, guest_email, comment, date);
+    return new GuestLog(name, email, comment, date);
   }
 
   render() {
     const element = document.createElement("guest-log");
 
-    const guest_name_element = document.createElement("span");
-    guest_name_element.setAttribute("slot", "guest-name");
-    guest_name_element.textContent = this.guest_name;
+    const name_element = document.createElement("span");
+    name_element.setAttribute("slot", "name");
+    name_element.textContent = this.name;
 
-    const guest_email_element = document.createElement("span");
-    guest_email_element.setAttribute("slot", "guest-email");
-    guest_email_element.textContent = this.guest_email;
+    const email_element = document.createElement("span");
+    email_element.setAttribute("slot", "email");
+    email_element.textContent = this.email;
 
     const comment_element = document.createElement("span");
     comment_element.setAttribute("slot", "comment");
@@ -52,17 +52,17 @@ class Log {
       dateStyle: "long",
     });
 
-    const time = new Date(this.date).toLocaleTimeString('es-cr', {
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        hourCycle: 'h12'
+    const time = new Date(this.date).toLocaleTimeString("es-cr", {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hourCycle: "h12",
     });
 
     date_element.textContent = `${date}, ${time}`;
 
-    element.appendChild(guest_name_element);
-    element.appendChild(guest_email_element);
+    element.appendChild(name_element);
+    element.appendChild(email_element);
     element.appendChild(comment_element);
     element.appendChild(date_element);
 
@@ -70,38 +70,40 @@ class Log {
   }
 }
 
-const add_logs_form_element = document.querySelector("#add-log-form");
+const add_guest_logs_form_element = document.querySelector(
+  "#add-guest-log-form"
+);
 
-const logs_element = document.querySelector("#logs");
+const guest_logs_element = document.querySelector("#guest-logs");
 
-const getLogs = async () => {
-  const response = await fetch("/get-logs");
+const getGuestLogs = async () => {
+  const response = await fetch("/get-guest-logs");
 
   const json = await response.json();
 
-  for (const log_json_object of json.logs) {
-    const log = Log.fromJson(log_json_object);
+  for (const guest_log_json_object of json.values) {
+    const guest_log = GuestLog.fromJson(guest_log_json_object);
 
-    const log_element = log.render();
+    const guest_log_element = guest_log.render();
 
-    logs_element?.appendChild(log_element);
+    guest_logs_element?.appendChild(guest_log_element);
   }
 };
 
-const addLog = async (event) => {
+const addGuestLog = async (event) => {
   event.preventDefault();
 
-  const data = new FormData(add_logs_form_element);
+  const data = new FormData(add_guest_logs_form_element);
 
-  const guest_name = data.get("guest-name");
-  const guest_email = data.get("guest-email");
+  const name = data.get("name");
+  const email = data.get("email");
   const comment = data.get("comment");
 
-  const response = await fetch("/add-log", {
+  const response = await fetch("/add-guest-log", {
     method: "POST",
     body: JSON.stringify({
-      guest_name,
-      guest_email,
+      name,
+      email,
       comment,
     }),
   });
@@ -114,6 +116,6 @@ const addLog = async (event) => {
   }
 };
 
-add_logs_form_element?.addEventListener("submit", addLog);
+add_guest_logs_form_element?.addEventListener("submit", addGuestLog);
 
-getLogs();
+getGuestLogs();
